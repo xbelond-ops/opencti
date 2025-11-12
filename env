@@ -1,0 +1,48 @@
+# MinIO Configuration
+MINIO_ROOT_USER=opencti
+MINIO_ROOT_PASSWORD=ChangeMe_MinioPassword123
+
+# RabbitMQ Configuration
+RABBITMQ_DEFAULT_USER=guest
+RABBITMQ_DEFAULT_PASS=guest
+
+# SMTP Configuration
+SMTP_HOSTNAME=localhost
+
+# OpenCTI Health Check
+OPENCTI_HEALTHCHECK_ACCESS_KEY=2a533bba-9ca3-4541-a147-1141d96705dd
+
+# OpenCTI Admin Token
+OPENCTI_ADMIN_TOKEN=dbef9f89-ac3a-4dc4-b1ed-d39c79cf8a57
+
+# OpenCTI Base URL
+OPENCTI_BASE_URL=http://localhost:8080
+
+# OpenCTI Admin User
+OPENCTI_ADMIN_EMAIL=admin@opencti.io
+OPENCTI_ADMIN_PASSWORD=ChangeMe_AdminPassword123
+
+# Redis Configuration
+REDIS_HOSTNAME=redis
+REDIS_PORT=6379
+
+# Elasticsearch Configuration
+ELASTICSEARCH_URL=http://elasticsearch:9200
+
+# AlienVault OTX API Key (optionnel - laissez vide si vous n'en avez pas)
+ALIENVAULT_API_KEY=
+
+# Connector IDs (générer des UUIDs)
+CONNECTOR_EXPORT_FILE_STIX_ID=
+CONNECTOR_EXPORT_FILE_CSV_ID=
+CONNECTOR_EXPORT_FILE_TXT_ID=
+CONNECTOR_IMPORT_FILE_STIX_ID=
+CONNECTOR_IMPORT_DOCUMENT_ID=
+CONNECTOR_ANALYSIS_ID=
+XTM_COMPOSER_ID=
+
+# Compose project name
+COMPOSE_PROJECT_NAME=opencti
+VIRUSTOTAL_API_KEY=
+ABUSEIPDB_API_KEY=
+XTM_COMPOSER_ID=
