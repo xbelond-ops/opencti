@@ -33,16 +33,17 @@ ELASTICSEARCH_URL=http://elasticsearch:9200
 ALIENVAULT_API_KEY=
 
 # Connector IDs (générer des UUIDs)
-CONNECTOR_EXPORT_FILE_STIX_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-CONNECTOR_EXPORT_FILE_CSV_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-CONNECTOR_EXPORT_FILE_TXT_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-CONNECTOR_IMPORT_FILE_STIX_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-CONNECTOR_IMPORT_DOCUMENT_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-CONNECTOR_ANALYSIS_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
-XTM_COMPOSER_ID=$(python3 -c "import uuid; print(uuid.uuid4())")
+CONNECTOR_EXPORT_FILE_STIX_ID=
+CONNECTOR_EXPORT_FILE_CSV_ID=
+CONNECTOR_EXPORT_FILE_TXT_ID=
+CONNECTOR_IMPORT_FILE_STIX_ID=
+CONNECTOR_IMPORT_DOCUMENT_ID=
+CONNECTOR_ANALYSIS_ID=
+XTM_COMPOSER_ID=
 
 # Compose project name
 COMPOSE_PROJECT_NAME=opencti
-VIRUSTOTAL_API_KEY=7e75bd3529451bcd4852af5af843070e490622eced821da6b13c1319c8b079c9
-ABUSEIPDB_API_KEY=abe4e95a471180114c93e11468a8f256d41729c188cabfb5cb0bd51dfdf3c465697ba04bd3735df2
-XTM_COMPOSER_ID=7f4b6d1c-xxxx-xxxx-xxxx-af13
+VIRUSTOTAL_API_KEY=
+ABUSEIPDB_API_KEY=
+XTM_COMPOSER_ID=
+
