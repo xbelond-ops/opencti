@@ -32,6 +32,7 @@ services:
       xpack.security.enabled: "false"
       thread_pool.search.queue_size: "5000"
       logger.org.elasticsearch.discovery: "ERROR"
+	  #atteantion à la mémoire!
       ES_JAVA_OPTS: "-Xms30g -Xmx30g"
 	  bootstrap.memory_lock: "true"
     ulimits:
@@ -245,3 +246,4 @@ services:
     depends_on:
       opencti:
         condition: service_healthy
+
