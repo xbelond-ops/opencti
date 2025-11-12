@@ -1,0 +1,10 @@
+connector-vulncheck:
+    image: opencti/connector-vulncheck:rolling
+    environment:
+      OPENCTI_URL: "http://opencti:8080"
+      OPENCTI_TOKEN:"${OPENCTI_ADMIN_TOKEN}"
+      CONNECTOR_ID: "${CONNECTOR_VULNCHECK}"
+      CONNECTOR_SCOPE: vulnerability,malware,threat-actor,infrastructure,location,ip-addr,indicator,external-reference,software
+      CONNECTOR_VULNCHECK_API_KEY=: "$CONNECTOR_VULNCHECK_API_KEY"
+      CONNECTOR_VULNCHECK_DATA_SOURCES: botnets,epss,exploits,initial-access,ipintel,nist-nvd2,ransomware,snort,suricata,threat-actors,vulncheck-kev,vulncheck-nvd2
+    restart: always
